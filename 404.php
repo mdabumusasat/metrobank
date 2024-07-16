@@ -82,4 +82,7 @@ if ( class_exists( '\Elementor\Plugin' ) AND $data->get( 'tpl-type' ) == 'e' AND
 </section> 	 
 <?php
 
+
+
+
 get_footer(); ?>
