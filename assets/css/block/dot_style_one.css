@@ -1,0 +1,29 @@
+.owl-dot-style-one .owl-dots {
+    position: relative;
+    text-align: center;
+    display: block;
+}
+.owl-dot-style-one .owl-dots .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0px 5px;
+}
+.owl-dot-style-one .owl-dots .owl-dot span {
+    position: relative;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #f9ddcf;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border-radius: 50%;
+    background: #f9ddcf;
+}
+.owl-dot-style-one .owl-dots .owl-dot.active span,
+.owl-dot-style-one .owl-dots .owl-dot:hover span {
+    background: #e35712;
+    border-color: #e35712;
+}

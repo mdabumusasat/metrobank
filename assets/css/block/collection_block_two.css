@@ -1,0 +1,30 @@
+/* Collection Block Two */
+.collection-block-two {
+    position: relative;
+    padding: 40px;
+    padding-right: 29px;
+    background-size: cover;
+    padding-top: 75px;
+    min-height: 240px;
+    margin-bottom: 30px;
+}
+.collection-block-two .category {
+    line-height: 26px;
+    color: #e35712;
+    margin-bottom: 7px;
+}
+.collection-block-two h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.collection-block-two .image {
+    position: absolute;
+    right: 0;
+}
+.collection-block-two .text {
+    font-size: 15px;
+    line-height: 26px;
+    color: #fefefe;
+    font-weight: 600;
+    text-transform: uppercase;
+}

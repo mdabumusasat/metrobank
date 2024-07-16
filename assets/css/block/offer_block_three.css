@@ -1,0 +1,53 @@
+/* Offer Section Two */
+.offer-section-two {
+    position: relative;
+    padding: 0 0 40px;
+    background: #f5f8fc;
+}
+.offer-block-three {
+    position: relative;
+    padding: 40px;
+    padding-right: 29px;
+    background-size: cover;
+    padding-top: 55px;
+    margin-bottom: 30px;
+    min-height: 200px;
+    overflow: hidden;
+}
+.offer-block-three .category {
+    line-height: 26px;
+    color: #e35712;
+    margin-bottom: 7px;
+}
+.offer-block-three h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.offer-block-three .image {
+    position: absolute;
+    right: 88px;
+    bottom: 0;
+}
+.offer-block-three .text {
+    font-size: 15px;
+    line-height: 26px;
+    color: #fefefe;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.offer-block-three .image:before {
+    position: absolute;
+    content: '';
+    width: 205px;
+    height: 205px;
+    border-radius: 103px;
+    background-color: rgba(255,255,255,0.14901960784313725);
+    left: -51px;
+    bottom: -80px;
+}
+.offer-block-three.style-two .image:before {
+    bottom: auto;
+    top: -130px;
+}
+

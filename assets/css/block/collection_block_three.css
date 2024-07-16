@@ -1,0 +1,28 @@
+/* Collection Block Three */
+.collection-block-three {
+    position: relative;
+    background: #dedfea;
+    padding: 30px;
+    min-height: 240px;
+    overflow: hidden;
+}
+.collection-block-three .image {
+    position: absolute;
+    right: 22px;
+    top: 35px;
+}
+.collection-block-three .theme-btn.btn-two {
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.collection-block-three:before {
+    position: absolute;
+    content: '';
+    right: -140px;
+    top: -25px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: rgba(255,255,255,0.30196078431372547);
+}

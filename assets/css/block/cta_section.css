@@ -1,0 +1,48 @@
+/* Cta Section One */
+.cta-section-one {
+    position: relative;
+    background: #f5f8fc;
+    padding-bottom: 70px;
+}
+.cta-section-one .wrapper-box {
+    position: relative;
+    max-width: 970px;
+    margin: 0 auto;
+    background-size: cover;
+    padding: 65px 0;
+}
+.cta-section-one .image {
+    position: absolute;
+    left: -4px;
+    top: 35px;
+}
+.cta-section-one .image-two {
+    top: 45px;
+    right: 105px;
+    position: absolute;
+}
+.cta-section-one h4 {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cta-section-one .btn-box {
+    text-align: center;
+}
+.cta-section-one .shape-one {
+    position: absolute;
+    bottom: -80px;
+    left: -95px;
+    z-index: -1;
+    -webkit-animation: zoom-fade 6s infinite linear;
+    animation: zoom-fade 6s infinite linear;
+}
+.cta-section-one .shape-two {
+    position: absolute;
+    top: -80px;
+    right: -95px;
+    z-index: -1;
+    -webkit-animation: zoom-fade 4s infinite linear;
+    animation: zoom-fade 4s infinite linear;
+}

@@ -1,0 +1,61 @@
+/* Newsletter Section */
+.newsletter-section-one {
+    position: relative;
+    background: #e35712;
+    padding-top: 40px;
+}
+.newsletter-section-one h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.newsletter-form input[type="email"] {
+    width: calc(100% - 225px);
+    height: 60px;
+    border-radius: 5px;
+    padding: 0 20px;
+    background: #fff;
+}
+.newsletter-form .theme-btn.btn-two {
+    padding: 17px 45px;
+    float: right;
+}
+.newsletter-form .theme-btn.btn-two:before,
+.newsletter-form .theme-btn.btn-two:after{
+    display: none;
+}
+.newsletter-form .btn-style-one.style-two:hover {
+    color: #222 !important;
+}
+.newsletter-form .btn-style-one.style-two:before {
+    background: #fff;
+}
+.newsletter-form .btn-style-one.style-two:hover {
+    background: #fff;
+}
+.newsletter-form .btn-style-one.style-two {
+    padding: 17px 35px;
+    height: 60px;
+    margin-bottom: 3px;
+    color: #fff !important;
+    background: #212734;
+}
+
+.newsletter-form-two input#subscription-email {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background: #293140;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #bdbec1;
+}
+.newsletter-form-two button.submit-btn {
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    background: transparent;
+    color: #fff;
+}
+.newsletter-form-two .form-group {
+    position: relative;
+}

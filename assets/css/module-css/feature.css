@@ -1,0 +1,407 @@
+/** feature-section **/
+
+.feature-section{
+  position: relative;
+}
+
+.metrobank_price_range{
+	position: relative;
+	display:block;
+	overflow:visible;
+}
+
+.metrobank_price_range:before {
+    position: absolute;
+    content: '';
+    background: #212226;
+    width:5000px;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+}
+
+.feature-section .inner-container{
+  position: relative;
+  display: block;
+  box-shadow: 0px 20px 60px 10px #00000012;
+  margin-top: -38px;
+  z-index: 2;
+}
+
+.feature-section .feature-block-one{
+  float: left;
+  width: 25%;
+}
+
+.feature-block-one{
+  position: relative;
+  display: block;
+/*   padding: 50px 40px; */
+  background: #fff;
+  z-index: 1;
+}
+
+.feature-block-one:before{
+  position: absolute;
+  content: '';
+  background: var(--theme-color);
+  width: 100%;
+  height: 0%;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  transition: all 500ms ease;
+}
+
+.feature-block-one:hover:before{
+  height: 100%;
+}
+
+.feature-block-one:hover h3 span{
+	color:#ffffff;
+	text-decoration: underline;
+	cursor:pointer;
+}
+.feature-block-one:hover p{
+	color:#ffffff !important;
+}
+
+.feature-block-one:hover .elementor-icon{
+  background: rgba(255, 255, 255, 0.20) !important;
+}
+
+
+/** feature-style-two **/
+
+.feature-style-two{
+  position: relative;
+  /*box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.1);*/
+}
+
+.feature-style-two .sec-title{
+  background: #212226;
+  padding: 69px 70px 68px 0px;
+}
+
+.feature-style-two .sec-title:before{
+  position: absolute;
+  content: '';
+  background: #212226;
+  width: 5000px;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+}
+
+.feature-style-two .content-box{
+  position: relative;
+  display: block;
+}
+
+.feature-block-two .inner-box{
+  position: relative;
+  display: block;
+  padding: 64px 0px 61px 0px;
+}
+
+.feature-block-two .inner-box .icon-box{
+  position: relative;
+  display: block;
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: var(--theme-color);
+}
+
+.feature-block-two .inner-box h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 13px;
+}
+
+.feature-block-two .inner-box h3 a{
+  display: inline-block;
+  color: var(--title-color);
+}
+
+.feature-block-two .inner-box h3 a:hover{
+  color: var(--theme-color);
+}
+
+.feature-style-two .owl-nav{
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 100%;
+}
+
+.feature-style-two .owl-nav .owl-prev{
+  position: absolute;
+  left: -130px;
+}
+
+.feature-style-two .owl-nav .owl-next{
+  position: absolute;
+  right: -120px;
+}
+
+.feature-style-two .pattern-layer{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -100px;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
+
+/** feature-style-three **/
+
+.feature-style-three{
+  position: relative;
+}
+
+.feature-style-three .feature-block-one .inner-box{
+  margin-bottom: 30px;
+  box-shadow: 0px 20px 60px 10px rgba(0, 0, 0, 0.07);
+}
+
+
+
+/** RTL **/
+
+
+.rtl .feature-style-two .sec-title:before{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .feature-block-two .inner-box{
+  text-align: right;
+}
+
+
+
+
+/*-------------------------------*/
+/**wp section css**/
+.fature_item:hover:before{
+  height: 100%;
+}
+
+.fature_item:before {
+    position: absolute;
+    content: '';
+    background: #eb292c!important;
+    width: 100%;
+    height: 0%;
+    left: 0px;
+    top: 0px;
+    transition: all 500ms ease;
+}
+
+.fature_item span.elementor-icon:hover{
+	 background: #ffffff !important;
+     z-index: 1 !important;
+
+}
+
+.fature_item:hover h3 span{
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fature_item:hover p{
+  color: #fff !important;
+}
+
+
+.ratting_text{
+	position: absolute;
+    left: -15px;
+    top: 60px;
+    background: #fff;
+    width: 220px;
+    padding: 24px 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+.experience-box:before {
+    position: absolute;
+    content: '';
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    left: -55px;
+    top: -55px;
+    border: 20px solid rgba(255, 255, 255, 0.50);
+}
+.experience-box:after {
+    background-color: #EB292C;
+}
+
+.metrobank_service_block{
+	position: relative;
+    overflow: hidden; 
+}
+
+.metrobank_image_shape{
+	-webkit-animation: zoom-fade 8s infinite linear;
+    animation: zoom-fade 8s infinite linear;
+}
+
+.metrobank_shape_image{
+	position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.metrobank_shape_image:before {
+    position: absolute;
+    content: '';
+    background: var(--theme-color);
+    width: 60px;
+    height: 60px;
+    right: 2px;
+    bottom: -58px;
+    border-radius: 50%;
+    opacity: 0.1;
+    transition: all 500ms ease;
+    -webkit-animation: zoom-fade 5s infinite linear;
+    animation: zoom-fade 5s infinite linear;
+}
+
+
+
+.metrobank_service_block:hover .metrobank_shape_image:before{
+	background: #fff !important;
+  	opacity: 0.15;
+	z-index: 1;
+}
+
+.metrobank_service_block:hover .metrobank_shape_image:after{
+	border-color: #fff !important;
+  	opacity: 0.15;
+	z-index: 1;
+}
+
+.metrobank_shape_image:after {
+    position: absolute;
+    content: '';
+    border: solid;
+    border-width: 7px;
+    border-color: var(--theme-color);
+    right: -18px;
+    bottom: -81px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    opacity: 0.1;
+    transition: all 500ms ease;
+    -webkit-animation: zoom-fade 8s infinite linear;
+    animation: zoom-fade 8s infinite linear;
+}
+
+.metrobank_service_block:hover:before {
+    height: 100%;
+}
+
+.metrobank_service_block:before {
+    position: absolute;
+    content: '';
+    background: var(--theme-color);
+    width: 92%;
+    height: 0px;
+    left: 15px;
+    right:0px;
+    bottom: 30px;
+    top: 0px;
+    z-index: 1;
+    transition: all 500ms ease;
+}
+.metrobank_service_block:hover i{
+	color:#ffffff !important;
+   	z-index: 1;
+}
+.metrobank_service_block:hover h2{
+	color:#ffffff !important;
+    text-decoration: underline;
+  	cursor: pointer;
+    z-index: 1;
+    transition: none;
+}
+.metrobank_service_block:hover ul li span{
+	color:#ffffff !important;
+    z-index: 1 !important;
+}
+
+.pattern-layer.rotate-me.one-card{
+	position: absolute !important;
+    top: 60px;
+    right: -246px;
+    width: 394px !important;
+    height: 394px;
+    border-radius: 50%;
+    border: 1px solid #E9E9E9;
+}
+
+.blog_item_icon span i {
+    color: #FFFFFF;
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: middle;
+    line-height: 47px;
+}
+
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .feature-section .feature-block-one{
+    width: 50%;
+  }
+
+  .feature-style-two .sec-title:before{
+    display: none;
+  }
+
+  .feature-style-two .sec-title{
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .feature-section .feature-block-one{
+    width: 100%;
+  }
+
+  .feature-style-two .owl-nav{
+    display: none;
+  }
+
+  .feature-style-two .content-box{
+    padding: 0px;
+  }
+
+  .feature-style-three{
+    padding: 70px 0px 40px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}

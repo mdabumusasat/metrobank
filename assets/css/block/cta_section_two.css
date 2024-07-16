@@ -1,0 +1,62 @@
+/* cta section two */
+.cta-section-two {
+    position: relative;
+    background: #f5f8fc;
+    padding-bottom: 70px;
+}
+.cta-section-two .text {
+    text-align: right;
+}
+.cta-section-two h4 {
+    text-align: right;
+    color: #fff;
+}
+.cta-section-two .row {
+    align-items: center;
+}
+.cta-section-two .bg-box {
+    padding: 15px 0;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.cta-section-two .btn-style-one.style-two {
+    padding: 8px 25px;
+}
+.cta-section-two span.shape-one {
+    position: absolute;
+    top: -240px;
+    left: -57px;
+    width: 316px;
+    height: 316px;
+    border-radius: 158px;
+    background-color: rgba(255,255,255,0.0784313725490196);
+    -webkit-animation: zoom-fade 6s infinite linear;
+    animation: zoom-fade 6s infinite linear;
+}
+.cta-section-two span.shape-two {
+    position: absolute;
+    left: 50%;
+    width: 330px;
+    height: 330px;
+    border-radius: 165px;
+    background-color: rgba(255,255,255,0.050980392156862744);
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.cta-section-two span.shape-three {
+    position: absolute;
+    right: -94px;
+    width: 333px;
+    height: 333px;
+    border-radius: 167px;
+    background-color: rgba(255,255,255,0.0784313725490196);
+    bottom: -258px;
+    -webkit-animation: zoom-fade 6s infinite linear;
+    animation: zoom-fade 6s infinite linear;
+}
+.cta-section-two .image {
+    position: relative;
+    text-align: center;
+    margin-right: -60px;
+}

@@ -1,0 +1,32 @@
+section.features-section_hr_001 {
+    position: relative;
+    padding: 70px 0 40px;
+}
+
+.feature-block-one .inner-box {
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid #e5e5e5;
+    padding: 30px;
+    padding-left: 100px;
+    width: 100%;
+    transition: all 500ms ease;
+}
+.feature-block-one .inner-box:hover{
+    border-color: #e35711;
+}
+.feature-block-one .icon {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 45px;
+    color: var(--theme-color);
+}
+.feature-block-one h4 {
+    line-height: 35px;
+    color: #141417;
+    margin-bottom: 5px;
+}
+.feature-block-one .text {
+    color: #808080;
+}
