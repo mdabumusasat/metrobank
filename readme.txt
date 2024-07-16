@@ -9,6 +9,6 @@
  * License URI: license.txt
  * Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
  * Text Domain: metrobank
- * Tested up to: 7.0
+ * Tested up to: 7.1
  * Requires PHP: 5.0
 */
